@@ -1,6 +1,2 @@
-<<<<<<< HEAD
-# Rust tour
-=======
-# rust_tour
+# Rust_tour
 Rust
->>>>>>> origin/master
