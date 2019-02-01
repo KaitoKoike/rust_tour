@@ -1,0 +1,11 @@
+/Users/kaitokoike/personal/rust_tour/iron-gcd/target/debug/deps/libserde_json-5a39c88f1469c89f.rlib: /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/lib.rs /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/builder.rs /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/de.rs /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/error.rs /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/ser.rs /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/value.rs /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/read.rs
+
+/Users/kaitokoike/personal/rust_tour/iron-gcd/target/debug/deps/serde_json-5a39c88f1469c89f.d: /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/lib.rs /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/builder.rs /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/de.rs /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/error.rs /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/ser.rs /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/value.rs /Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/read.rs
+
+/Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/lib.rs:
+/Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/builder.rs:
+/Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/de.rs:
+/Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/error.rs:
+/Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/ser.rs:
+/Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/value.rs:
+/Users/kaitokoike/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-0.8.6/src/read.rs:
