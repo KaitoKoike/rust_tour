@@ -1,0 +1,7 @@
+[package]
+name = "ch03"
+version = "0.1.0"
+authors = ["Kaito Koike <kaikai.poteti@keio.jp>"]
+edition = "2018"
+
+[dependencies]

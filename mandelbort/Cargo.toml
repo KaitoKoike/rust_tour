@@ -1,0 +1,9 @@
+[package]
+name = "mandelbort"
+version = "0.1.0"
+authors = ["Kaito Koike <kaikai.poteti@keio.jp>"]
+edition = "2018"
+
+[dependencies]
+num = "0.1.27"
+image = "0.13.0"
