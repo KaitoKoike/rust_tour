@@ -32,14 +32,15 @@ fn main() {
     }
 
     let mut s = "Govinda".to_string();
-    let mut t = s;
+    let t = s;
     s = "Siddhartha".to_string();
     println!("{}",t);
+    println!("{}", s);
 
     //コピー型
     //簡単な数字や，キャラクター，bool値などはスタック上に直接値を乗せるものであり，それを複製する．
     let str1 = "somnabulance".to_string();
-    let str2 = str1;
+    let _str2 = str1;
     //上のは移動，下はコピー
     let num1:i32 = 32;
     let num2 = num1;
@@ -50,9 +51,25 @@ fn main() {
     struct Label{number:u32}; //Label{number:u32,name:String} はできない
     fn print(l:Label) { println!("STAMP: {}",l.number);}
     //下の変換はコピー型ではないので移動した後の参照はできないが，Label構造体のフィールドはuしかないので，copy型として定義できる(String)などの継承はできない
-    let l = Label {number:3,name:"John"};
+    let l = Label {number:3};
     print(l);
     println!("My label number is : {}",l.number);
+
+    //4.4 Rc型とArc型
+    //Rc型はスレッド安全ではないが高速に動作する．一方でArc型はスレッド安全なコードで管理できるが，速度の面でRC型に劣る．
+    use std::rc::Rc;
+
+    let s:Rc<String> = Rc::new("shirataki".to_string());
+    let t:Rc<String> = s.clone();
+    let u:Rc<String> = s.clone();
+
+    assert!(s.contains("shira"));
+    assert_eq!(t.find("taki"), Some(5));
+    println!("{} are quite chewy, almost bouncy, but lack flavor", u);
+    
+
+
+
 
 
 
